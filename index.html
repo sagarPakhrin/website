@@ -10,7 +10,83 @@
     </head>
 
     <body>
-        <h1>Bootstrap 4.0.0-beta Starter</h1>
+        <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+          <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <a href="index.html" class="navbar-brand">Sagar Lama</a>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section id="showcase">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="0"></li>
+              <li data-target="#myCarousel" data-slide-to="0"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item carousel-image-1 active">
+                <div class="container">
+                  <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                    <h1 class="display-3">Heading 1</h1>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum velit doloribus modi corrupti sequi voluptas labore ad sit maxime ducimus!
+                    </p>
+                    <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+                  </div><!-- carousel caption ends-->
+                </div> <!-- carousel-container ends-->
+              </div> <!-- carousel-item ends-->
+              <div class="carousel-item carousel-image-2">
+                <div class="container">
+                  <div class="carousel-caption d-none d-sm-block mb-5">
+                    <h1 class="display-3">Heading 2</h1>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum velit doloribus modi corrupti sequi voluptas labore ad sit maxime ducimus!
+                    </p>
+                    <a href="#" class="btn btn-success btn-lg">Sign Up Now</a>
+                  </div><!-- carousel caption ends-->
+                </div> <!-- carousel-container ends-->
+              </div> <!-- carousel-item ends-->
+              <div class="carousel-item carousel-image-3">
+                <div class="container">
+                  <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                    <h1 class="display-3">Heading Three</h1>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum velit doloribus modi corrupti sequi voluptas labore ad sit maxime ducimus!
+                    </p>
+                    <a href="#" class="btn btn-warning btn-lg">Learn More</a>
+                  </div><!-- carousel caption ends-->
+                </div> <!-- carousel-container ends-->
+              </div> <!-- carousel-item ends-->
+            </div> <!-- carousel inner ends-->
+            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div><!-- myCarousel ends -->
+        </section>
 
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
