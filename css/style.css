@@ -1,3 +1,9 @@
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em;
+  padding-right: 1em; }
+
 .carousel-item {
   height: 450px; }
 
@@ -12,3 +18,6 @@
 .carousel-image-3 {
   background: url("../img/image3.jpg");
   background-size: cover; }
+
+#home-icon .fa {
+  font-size: 55px; }
