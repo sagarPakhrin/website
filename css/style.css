@@ -71,6 +71,17 @@
 #about img {
   margin-top: -50px; }
 
+#faq.bg-dark {
+  background: #444;
+  color: #fff; }
+  #faq.bg-dark .card {
+    border: #444; }
+    #faq.bg-dark .card a {
+      color: #fff;
+      text-decoration: none; }
+  #faq.bg-dark .card-block, #faq.bg-dark .card-header {
+    background: #333; }
+
 @media (max-width: 576px) {
   nav .container {
     width: 100%; }

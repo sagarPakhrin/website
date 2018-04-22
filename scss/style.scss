@@ -92,6 +92,24 @@ $dark-overlay:rgba(0,0,0,0.7);
 		}
 }
 
+#faq.bg-dark{
+				background:#444;
+				color:#fff;
+
+				.card{
+						border:#444;
+						a{
+								color:#fff;
+								text-decoration:none;
+						}
+				}
+				.card-block, .card-header{
+						background:#333;
+				}
+		}
+
+
+
 @media(max-width:576px){
 		nav .container{
 				width:100%;
