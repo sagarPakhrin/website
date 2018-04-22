@@ -21,3 +21,31 @@
 
 #home-icon .fa {
   font-size: 55px; }
+
+#home-icons {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg"); }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+@media (max-width: 576px) {
+  nav .container {
+    width: 100%; }
+  #showcase h1 {
+    font-size: 40px; } }
