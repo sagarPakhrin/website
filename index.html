@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
   <title>Sagarlama.com</title>
 </head>
 
@@ -19,19 +21,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#home" class="nav-link active">Home</a>
+            <a href="index.html" class="nav-link active">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
+            <a href="about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#authors" class="nav-link">Service</a>
+            <a href="services.html" class="nav-link">Service</a>
           </li>
           <li class="nav-item">
-            <a href="#authors" class="nav-link">Blog</a>
+            <a href="blog.html" class="nav-link">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
@@ -137,10 +139,95 @@
       </div>
     </div>
   </section>
+  <!-- video play section-->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a class="video" href="#" data-video="https://www.youtube.com/embed/HnwsG9a5riA"
+            data-toggle="modal"
+            data-target="#videoModal">
+            <i class="fa fa-play"></i></a>
+            <h1>What we Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal"><span>&times;</span> </button>
+          <iframe src="" height="350" width="100%" allowfullscreen frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="mt-4 mb-4">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row py-5">
+        <div class="col-md-4">
+          <a href="http://lorempixel.com/560/560/business/1" data-toggle="lightbox" data-gallery="img-gallery">
+            <img src="http://lorempixel.com/400/400/business/1" alt="" class="img-fluid" /></a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://lorempixel.com/560/560/business/2" data-toggle="lightbox" data-gallery="img-gallery">
+              <img src="http://lorempixel.com/400/400/business/2" alt="" class="img-fluid" /></a>
+            </div>
+            <div class="col-md-4">
+              <a href="http://lorempixel.com/560/560/business/3" data-toggle="lightbox" data-gallery="img-gallery">
+                <img src="http://lorempixel.com/400/400/business/3" alt="" class="img-fluid" /></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <a href="http://lorempixel.com/560/560/business/4" data-toggle="lightbox" data-gallery="img-gallery">
+                  <img src="http://lorempixel.com/400/400/business/4" alt="" class="img-fluid" /></a>
+                </div>
+                <div class="col-md-4">
+                  <a href="http://lorempixel.com/560/560/business/5" data-toggle="lightbox" data-gallery="img-gallery">
+                    <img src="http://lorempixel.com/400/400/business/5" alt="" class="img-fluid" /></a>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="http://lorempixel.com/560/560/business/6" data-toggle="lightbox" data-gallery="img-gallery">
+                      <img src="http://lorempixel.com/400/400/business/6" alt="" class="img-fluid" /></a>
+                    </div>
+                  </div>
+                </div>
+              </section><!-- gallery section ends-->
+              <section class="newsletter text-center p-4 bg-inverse text-white p-5">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <h1>Sign up for our Newsletter</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptates, laudantium repellendus officia beatae aperiam. Doloribus fugiat, voluptas corporis harum!</p>
+                      <form action="" class="form-inline justify-content-center">
+						<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Your Name" />
 
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+						<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Enter Email" />
+						<button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+					</div><!-- col ends -->
+					</div><!-- row ends -->
+                </div>
+              </section>
+			  <footer id="main-footer" class="text-center p-4">
+					  <div class="container">
+					          <div class="row">
+									  <div class="col">
+										<p>Copyright 2018 &copy; sagar lama</p>
+									  </div>
+					          </div>
+					  </div>
+			  </footer>
+              <script src="js/jquery.min.js"></script>
+              <script src="js/popper.min.js"></script>
+              <script src="js/bootstrap.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+              <script src="js/main.js"></script>
+            </body>
+            </html>
