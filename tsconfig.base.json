@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mywebsite/icons": ["libs/icons/src/index.ts"],
+      "@mywebsite/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
