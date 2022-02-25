@@ -1,7 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "icons": "libs/icons",
     "portfolio": "apps/portfolio",
     "portfolio-e2e": "apps/portfolio-e2e",
     "ui": "libs/ui"

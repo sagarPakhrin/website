@@ -1,4 +1,4 @@
-import { Header } from '@mywebsite/ui';
+import { Header, Icon } from '@mywebsite/ui';
 import styles from './index.module.css';
 
 export function Index() {
@@ -10,7 +10,7 @@ export function Index() {
       <div className="h-screen bg-gray-800 flex flex-col flex-wrap">
         <Header />
         <section id="banner" className="flex-1">
-          <div className="container mx-auto h-full">
+          <div className="container mx-auto h-full flex items-center justify-start ">
             <div className="w-full md:w-1/2 flex items-center">
               <div>
                 <div className="flex gap-4">
@@ -19,7 +19,7 @@ export function Index() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Linkedin
+                    <Icon name="github" />
                   </a>
                   <a
                     href="https://github.com/sagarPakhrin"

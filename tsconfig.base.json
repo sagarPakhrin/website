@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mywebsite/icons": ["libs/icons/src/index.ts"],
       "@mywebsite/ui": ["libs/ui/src/index.ts"]
     }
   },
